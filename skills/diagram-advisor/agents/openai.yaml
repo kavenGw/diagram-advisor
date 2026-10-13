@@ -1,0 +1,4 @@
+interface:
+  display_name: "绘图顾问"
+  short_description: "分析技术与业务问题，推荐合适的图类型，确认后使用 drawio 绘图"
+  default_prompt: "使用 $diagram-advisor 分析我的问题，推荐适合的图类型，等我选择后再用 drawio 绘制。"
