@@ -44,7 +44,7 @@ description: Use when the user wants to clarify a technical or business problem 
 
 ## 4. 交给 drawio 绘制
 
-**必需下游技能：`drawio-skill`。** 选定后，从当前技能目录清单定位并读取它的 `SKILL.md`，按其中与任务相关的绘制、布局和校验流程执行，不在本技能复制 XML 或工具命令。
+**必需下游技能：`drawio-skill`。** 选定后，从当前技能目录清单定位并读取它的 `SKILL.md`；作为 Claude Code 插件安装时，它位于 `${CLAUDE_PLUGIN_ROOT}/../../drawio-skill/*/skills/drawio-skill/SKILL.md`（占位符未被替换说明不是插件安装，忽略此路径）。按其中与任务相关的绘制、布局和校验流程执行，不在本技能复制 XML 或工具命令。
 
 交接时沿用对话中的绘图简报：目的与读者、已选图类型、范围、关键节点与关系、资料来源及待确认假设、用户指定的风格和输出位置。多图分别说明视角和共同对象，保持命名一致。
 

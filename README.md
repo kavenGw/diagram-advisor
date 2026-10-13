@@ -13,6 +13,17 @@ Without drawio-skill, diagram-advisor still analyzes and recommends, then stops 
 
 ## Install
 
+Claude Code plugin (installs drawio-skill automatically, pinned to a tested version):
+
+```
+/plugin marketplace add kavenGw/diagram-advisor
+/plugin install diagram-advisor@diagram-advisor
+```
+
+The plugin skill is named `diagram-advisor:diagram-advisor`. If you installed it by one of the methods below before, remove `~/.claude/skills/diagram-advisor` to avoid loading it twice.
+
+npx:
+
 ```bash
 npx skills add kavenGw/diagram-advisor -g
 ```

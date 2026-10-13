@@ -13,6 +13,17 @@
 
 ## 安装
 
+Claude Code 插件（自动安装依赖 drawio-skill，固定在已验证版本）：
+
+```
+/plugin marketplace add kavenGw/diagram-advisor
+/plugin install diagram-advisor@diagram-advisor
+```
+
+插件安装后技能名为 `diagram-advisor:diagram-advisor`。若之前已通过下面的方式安装过，请删除 `~/.claude/skills/diagram-advisor`，避免重复加载。
+
+npx：
+
 ```bash
 npx skills add kavenGw/diagram-advisor -g
 ```

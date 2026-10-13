@@ -1,0 +1,33 @@
+{
+  "name": "diagram-advisor",
+  "description": "diagram-advisor and its drawing dependency drawio-skill.",
+  "owner": {
+    "name": "kavenGw",
+    "url": "https://github.com/kavenGw"
+  },
+  "plugins": [
+    {
+      "name": "diagram-advisor",
+      "source": "./",
+      "category": "productivity"
+    },
+    {
+      "name": "drawio-skill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Agents365-ai/drawio-skill.git",
+        "ref": "v3.4.2",
+        "sha": "701e72833273525c17abe5511e544da2db51265d"
+      },
+      "description": "Generate editable draw.io diagrams. Third-party plugin by Agents365.ai, pinned to v3.4.2.",
+      "version": "3.4.2",
+      "author": {
+        "name": "Agents365.ai",
+        "url": "https://github.com/Agents365-ai"
+      },
+      "homepage": "https://github.com/Agents365-ai/drawio-skill",
+      "license": "MIT",
+      "category": "productivity"
+    }
+  ]
+}
